@@ -1,0 +1,14 @@
+services:
+  atcoder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    tty: true
+    stdin_open: true
+    volumes:
+      - type: bind
+        source: .
+        target: /workspace
+        consistency: cached

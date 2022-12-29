@@ -1,0 +1,35 @@
+{
+  "name": "atcoder",
+  "dockerComposeFile": "../compose.yml",
+  "service": "atcoder",
+  "workspaceFolder": "/workspace",
+  "settings": {
+    // 汎用
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+    // プロジェクト
+    "[python]": {
+      "editor.tabSize": 4
+    }
+  },
+  "extensions": [
+    // 汎用
+    "streetsidesoftware.code-spell-checker",
+    "oderwat.indent-rainbow",
+    "christian-kohler.path-intellisense",
+    "ms-azuretools.vscode-docker",
+    "formulahendry.code-runner",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "usernamehw.errorlens",
+    "visualstudioexptteam.vscodeintellicode",
+    "GitHub.vscode-pull-request-github",
+    // プロジェクト
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "njpwerner.autodocstring",
+    "kevinrose.vsc-python-indent"
+  ]
+}
