@@ -1,9 +1,6 @@
 #!/bin/sh
 
-# $1 contest_directory
-# $2 contest_name
-# $3 problem_name
+# $1 contest_name
+# $2 problem_name
 
-cd ./$1/$2/$3/
-acc submit $3.py
-cd /workspaces/atcoder/
+acc submit /workspace/code/$1/$2/$2.py
