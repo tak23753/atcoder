@@ -12,8 +12,9 @@
     // プロジェクト
     "[python]": {
       "editor.tabSize": 4
-    }
-  },
+    },
+    "code-runner.runInTerminal": true
+},
   "extensions": [
     // 汎用
     "streetsidesoftware.code-spell-checker",
